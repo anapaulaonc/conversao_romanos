@@ -24,9 +24,9 @@ namespace{
         EXPECT_EQ(validar("CCXCIVI"), -1);
         EXPECT_EQ(validar("XXXX"), -1);
         EXPECT_EQ(validar("MMMI"), -1);
-        EXPECT_EQ(validar("LL"), -1);
+        EXPECT_EQ(validar("DD"), -1);
         EXPECT_EQ(validar("XM"), -1);
-        EXPECT_EQ(validar("xiv"), -1);
+        EXPECT_EQ(validar("xvv"), -1);
         EXPECT_EQ(validar("IIIIIIIIIIIIIIIIIIIIIIIIIIIIIII"), -1);
         EXPECT_EQ(validar("LUI"), -1);
     }
